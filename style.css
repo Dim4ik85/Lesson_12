@@ -1,0 +1,41 @@
+form{
+    width: 500px;
+    position: fixed;
+    top: 70px;
+    left: 100px;
+    display: block;
+    
+}
+fieldset {
+    border-radius: 20px 20px 20px 20px;
+    color: black;
+    background: silver;
+}
+input[type="text"],input[type="email"] {
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.menu {
+    clear:both;
+    text-align:right;
+    line-height:25px;
+}
+label {
+    float:left;
+    color: brown;
+}
+button {
+    padding: 10px 0;
+    border-width: 0;
+    display: block;
+    width: 120px;
+    margin: 25px auto 0;
+    background: #cfb312;
+    color: white;
+    font-size: 14px;
+    outline: none;
+    text-transform: uppercase;
+  }
+
+
+
